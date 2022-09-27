@@ -39,6 +39,7 @@ body {
 	margin: auto;
 	text-align: center;
 	position: relative;
+	display: flex;
 }
 .global-nav [role=navigation] {
 	display: inline-block;
@@ -51,6 +52,7 @@ body {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+	display: flex;
 }
 #global-actions > li {
 	height: 46px;
@@ -121,4 +123,14 @@ body {
 }
 #global-actions > li:hover {
 	color: #000;
+}
+.logo {
+	margin-right: 9vh;
+}
+.logo img{
+	max-height: 46px;
+	max-width: 46px;
+}
+.email {
+	margin-left: 50%;
 }
